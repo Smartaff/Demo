@@ -103,8 +103,8 @@ nav {
   border-radius: 50%;
   width: 80px;
   height: 80px;
-  background-color: #7396BF;
-  border: #ffffff solid 15px;
+  background-color: #f0c20c	;
+  border: gold solid 15px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -157,16 +157,52 @@ nav {
   
 }
 .content{
-  background-color: #ffffff;
+  max-width: 250px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
   height: 150px;
-  width: 250px;
   margin: 20px;
   border-radius: 10px;
+  overflow: hidden;
+  transition:  0.5s ease-in-out;
 }
+.content:hover{
+  transform: translateY(5px);
+}
+.content img{
+  width: 100%;
+  height: auto;
+  
+  display: block; 
+}
+.info {
+  position: absolute;
+  z-index: 3;
+  background-color:rgba(255, 255, 255, 0.5);
+  opacity: 1;
+  transition: 0.5 all;
+  padding: 5px;
+}
+.info h1{
+  color: #000;
+  margin: 0;
+}
+.info p{
+  letter-spacing: 1px;
+  font-size: 10px;
+  margin: 5px 0; 
+}
+.btn{
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 10px;
+  background: #7396BF;
+}
+
+
 .right-button{
   border-radius: 50%;
   width: 50px;
-  height: 50px;
+  height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -183,8 +219,7 @@ font-size: 15px;
   border-radius: 15px;
   color: black;
   padding: 15px;
-  
-font-size: 15px;
+  font-size: 15px;
   
 }
 .materi{
