@@ -1,0 +1,123 @@
+/* *{
+    background-color:#4682B4;
+  }
+  body{
+    border-color: #4682B4;
+    justify-content: center;
+  }
+  .wrapper-loginguru{
+
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center; 
+    text-align: center; 
+    background-color: #4682B4;
+
+  }
+
+  footer{
+    background-color: #fff;
+  } */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #7396BF;
+    margin: 0;
+    padding: 0;
+}
+
+
+.wrapper-loginguru {
+    width: 350px;
+    padding: 20px;
+    margin: 100px auto;
+    background: transparent;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+  .wrapper-loginguru h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+  
+  }
+  
+  .wrapper-loginguru i{
+    font-size: 40px;
+    font-family: inter;
+    
+  }
+.input-box {
+    width: 325px;
+    margin-bottom: 10px;
+    color: #fff;
+    
+}
+
+.input-box label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.remember-me {
+  margin-bottom: 20px;
+  text-align: start;
+  color: #fff;
+}
+.foot{
+  display: flex;
+  justify-content: space-between;
+  width: 90rem;
+}
+footer{
+  background-color: #fff;
+  width: 100%;
+  display: flex;
+  position:fixed;
+  bottom:0;
+  align-items: center;
+  justify-content: center;
+  padding-block: 10px ;
+  
+}
+
+.signup {
+    
+    
+    display: flex;
+    color: #011936;
+}
+
+.signup a {
+    color:#7396BF;
+    text-decoration: none;
+    
+}
+
+.submit {
+    
+    display: flex;
+    
+}
+
+.submit button {
+    width: 130px ;
+    padding: 10px;
+    background-color: #7396BF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
